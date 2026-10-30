@@ -10,9 +10,19 @@ des informations de contact et de localisation, ainsi qu'un badge de disponibili
 et un bouton « Contacter ». Les données du profil sont passées en paramètres, ce qui permet
 d'afficher plusieurs profils différents avec les mêmes composables (voir les deux previews).
 
-## Capture
+## Captures
 
-![Previews de la fiche profil](screenshots/preview.png)
+**Previews** : deux variantes du profil (Android junior disponible / full-stack non disponible)
+
+![Previews de la fiche profil](screenshots/preview.jpg)
+
+**Application lancée sur l'émulateur** (Pixel 8)
+
+<img src="screenshots/app.png" alt="Application lancée sur l'émulateur" width="300">
+
+> Les couleurs diffèrent entre les previews et l'émulateur : le thème généré utilise les
+> couleurs dynamiques (Android 12+), calculées à partir du fond d'écran de l'appareil.
+> Les previews désactivent cette option (`dynamicColor = false`) pour garder un rendu stable.
 
 ## Notions utilisées
 
